@@ -8,7 +8,7 @@ import (
 var (
 	ErrArgOutOfBounds = errors.New("Argument index out of bounds")
 )
-
+//Hello world
 type Command struct {
 	cmdStr    string
 	spaceIdxs []int
